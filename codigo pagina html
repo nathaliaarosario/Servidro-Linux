@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Pessoal</title>
+    <style>
+    h1 {
+      font-family: Monaco;
+      font-weight: normal;
+      text-align: center;
+      margin-top: 40px; 
+      margin-right: 450px;
+      color: #ffffff;
+    }
+
+    h3 {
+      font-family: Garamond;
+      font-weight: normal;
+      text-align: center;
+      margin-top: 40px; 
+      margin-right: 500xp;
+      color: #ffffff;
+    }
+
+    em {
+     font-weight: normal;
+     text-align: center;
+      margin-top: 40px; 
+      margin-right: 40px;  
+      color: #ffffff;
+    }
+    body {
+         background: linear-gradient(to left, #a07ac9, #2a113a);
+         margin: 0;
+         height: 100vh;
+    }
+    
+  </style>
+    </body>
+ </head>
+ <body>
+    <h3 >Olá! Eu sou Nathalia Alves Rosario.</h3>
+    
+    <div>
+        <h1> Tecnico Informática.</h1> 
+    </div>
+    <div> 
+        <em>Estou cursando tecnico em Informática. Apaixonada por tecnologia e por
+        transformar desafios em soluções eficientes.</em>
+    </div>
+    <div>
+        <em>Confira meus projetos e veja como posso ajudar você ou sua empresa.</em>
+    </div>
+    <img src="" alt="">
+    <link rel="stylesheet" href="">
+ </body>
+ </html>
