@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Pessoal</title>
+    <style>
+
+    h1 {
+      font-family: Garamond;
+      color: #ffffff;
+    }
+    img {
+        width: 50%;
+        height: 100%;
+    }
+    .imagem-com-moldura {
+      border: 4px solid #0a3d52; 
+      border-radius: 10px;        
+      padding: 5px;              
+    }
+    h3 {
+      font-family: Garamond;
+      font-weight: normal;
+      text-align: center;
+      margin-top: 40px; 
+      margin-right: 500xp;
+      color: #ffffff;
+    }
+
+    em {
+     font-weight: normal;
+     text-align: center;
+      margin-top: 40px; 
+      margin-right: 40px;  
+      color: #ffffff;
+    }
+
+    body {
+         background: linear-gradient(to left, #38798a, #12383f);
+         margin: 0;
+         text-align: center;
+         height: 100vh;
+    }
+    
+  </style>
+    </body>
+ </head>
+ <body>
+
+    <h3>Olá! Eu sou Nathalia Alves Rosario.</h3>
+    <h1 style="text-align: center;"> Tecnico Informática.</h1> 
+
+    <div> 
+        <em>Estou cursando tecnico em Informática. Apaixonada por tecnologia, Redes e desenvolvimento web e por
+        transformar desafios em soluções eficientes. Estou desenvolvendo minhas habilidades como futura profissional</em>
+    </div>
+    <img src="c:\Users\nathalia.arosario\Documents\Imagem-html.webp" alt="imagem de tecnologia">
+<link rel="t" href= "http://10.26.44.217/nathalia/nathalia.php"  width="500" height="600;" class="imagem-com-moldura"></link>
+
+</body>
+ </html>
+ 
