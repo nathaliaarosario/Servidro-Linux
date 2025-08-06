@@ -1,0 +1,89 @@
+<?php
+date_default_timezone_set('America/Sao_Paulo');
+
+$dataHora = date("d/m/Y H:i:s");
+?>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfólio Pessoal</title>
+  <style>
+    body {
+      background: linear-gradient(to left, #a4c7b9, #ceebe3);
+      margin: 0;
+      text-align: center;
+      height: 100vh;
+      position: relative;
+      z-index: 0;
+    }
+
+    
+    .fundo {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('https://static.vecteezy.com/system/resources/previews/021/168/118/non_2x/colorful-hearts-design-elements-free-png.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      opacity: 0.2;
+      z-index: -1;
+    }
+
+    
+    .faixa-proximo {
+      background-color: #93c9b2; 
+      padding: 20px;
+      text-align: center;
+      margin-top: 40px;
+      border-top: 3px solid #5f9a84;
+      border-bottom: 3px solid #5f9a84;
+    }
+
+    .faixa-proximo a {
+      text-decoration: none;
+      color: white;
+      font-family: Garamond;
+      font-size: 24px;
+      font-weight: bold;
+      background-color: #5f9a84;
+      padding: 10px 30px;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+
+    .faixa-proximo a:hover {
+      background-color: #407a68;
+    }
+
+    .minha-imagem {
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid black;
+  }
+  </style>
+</head>
+<body>
+ 
+    <div class="fundo"></div>
+
+  <h3>Bem-vindo ao meu site</h3>
+
+  <p><strong>Data e hora de acesso:</strong> <?php echo $dataHora; ?></p>
+
+  <p>Conheça meu GitHub:</p>
+
+  <img src="https://i.pinimg.com/originals/0f/71/8e/0f718e60a8e7b1e3f64fe9d2799b6022.jpg"
+       class="minha-imagem" alt="Pandinha">
+
+  <div class="faixa-proximo">
+     <a href="https://github.com/nathaliaarosario" target="_blank">
+      Meu GitHub
+    </a>
+  </div>
+
+</body>
+</html>
